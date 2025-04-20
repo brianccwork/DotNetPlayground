@@ -1,3 +1,4 @@
+global using dotnet_rpg.Models; using System;   //This allows for the whole application to know this reference and can be put into the program cs instead of this controller
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
